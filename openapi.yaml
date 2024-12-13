@@ -19,6 +19,13 @@ paths:
                 long: 107.5758500037501
                 lat: -6.874720427234501
                 max_distance: 1000
+      parameters:
+        - name: login
+          in: header
+          schema:
+            type: string
+          example: >-
+            v4.public.eyJhbGlhcyI6Ik1VSEFNTUFEIFJJRktZIiwiZXhwIjoiMjAyNC0xMi0xNFQwMTozMzoxMFoiLCJpYXQiOiIyMDI0LTEyLTEzVDA3OjMzOjEwWiIsImlkIjoiNjI4OTU2MzY1NTMyMDciLCJuYmYiOiIyMDI0LTEyLTEzVDA3OjMzOjEwWiJ9fhZON6yPf-wU-ORFGRfwvS0YbuWlX21uqXwuMyleA-ZpTb_vxH92VBf0rrz0h7U-gVuj_714KSai3YB9rRyUDA
       responses:
         '200':
           description: Successful response
@@ -37,6 +44,13 @@ paths:
               example:
                 long: 107.5758500037501
                 lat: -6.874720427234501
+      parameters:
+        - name: login
+          in: header
+          schema:
+            type: string
+          example: >-
+            v4.public.eyJhbGlhcyI6Ik1VSEFNTUFEIFJJRktZIiwiZXhwIjoiMjAyNC0xMi0xNFQwMTozMzoxMFoiLCJpYXQiOiIyMDI0LTEyLTEzVDA3OjMzOjEwWiIsImlkIjoiNjI4OTU2MzY1NTMyMDciLCJuYmYiOiIyMDI0LTEyLTEzVDA3OjMzOjEwWiJ9fhZON6yPf-wU-ORFGRfwvS0YbuWlX21uqXwuMyleA-ZpTb_vxH92VBf0rrz0h7U-gVuj_714KSai3YB9rRyUDA
       responses:
         '200':
           description: Successful response
